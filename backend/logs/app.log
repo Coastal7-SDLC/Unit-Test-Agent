@@ -1,0 +1,148 @@
+2025-08-29 10:19:11,829 - app.core.database - INFO - Connected to MongoDB at mongodb://localhost:27017
+2025-08-29 10:19:11,829 - app.core.database - INFO - Using database: ai_testing_agent
+2025-08-29 10:19:11,833 - app.core.database - INFO - MongoDB initialized successfully with indexes
+2025-08-29 10:19:58,342 - app.api.routes - INFO - Started analysis task 158b9725-eeb8-4acd-9254-80d881f58f89 for repository https://github.com/fperez/mytoy.git
+2025-08-29 10:19:58,352 - app.services.github_service - INFO - Cloning repository: https://github.com/fperez/mytoy.git
+2025-08-29 10:20:00,191 - app.services.github_service - INFO - Repository cloned successfully to: D:\Unit_Test_Agent\backend\temp\158b9725-eeb8-4acd-9254-80d881f58f89
+2025-08-29 10:20:00,199 - app.services.github_service - INFO - Repository analysis completed: 5 files, 1 languages
+2025-08-29 10:20:00,202 - app.services.test_generator_service - INFO - Processing file: setup.py
+2025-08-29 10:20:00,203 - app.services.test_generator_service - INFO - Reading source code from: setup.py
+2025-08-29 10:20:00,205 - app.services.test_generator_service - INFO - Analyzing code structure for: setup.py
+2025-08-29 10:20:00,206 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:20:17,078 - app.services.ai_service - INFO - AI request successful with model: deepseek/deepseek-r1:free
+2025-08-29 10:20:17,080 - app.services.test_generator_service - INFO - Generating tests for: setup.py
+2025-08-29 10:20:17,080 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:21:15,943 - app.services.ai_service - INFO - AI request successful with model: deepseek/deepseek-r1:free
+2025-08-29 10:21:15,946 - app.services.test_generator_service - INFO - Generated 4 tests for setup.py
+2025-08-29 10:21:15,947 - app.services.test_generator_service - INFO - Processing file: mytoy\toys.py
+2025-08-29 10:21:15,948 - app.services.test_generator_service - INFO - Reading source code from: mytoy\toys.py
+2025-08-29 10:21:15,948 - app.services.test_generator_service - INFO - Analyzing code structure for: mytoy\toys.py
+2025-08-29 10:21:15,948 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:21:38,178 - app.services.ai_service - INFO - AI request successful with model: deepseek/deepseek-r1:free
+2025-08-29 10:21:38,180 - app.services.test_generator_service - INFO - Generating tests for: mytoy\toys.py
+2025-08-29 10:21:38,181 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:22:48,852 - app.services.ai_service - INFO - AI request successful with model: deepseek/deepseek-r1:free
+2025-08-29 10:22:48,856 - app.services.test_generator_service - INFO - Generated 3 tests for mytoy\toys.py
+2025-08-29 10:22:48,857 - app.services.test_generator_service - INFO - Processing file: mytoy\__init__.py
+2025-08-29 10:22:48,858 - app.services.test_generator_service - INFO - Reading source code from: mytoy\__init__.py
+2025-08-29 10:22:48,858 - app.services.test_generator_service - INFO - Analyzing code structure for: mytoy\__init__.py
+2025-08-29 10:22:48,859 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:23:17,924 - app.services.ai_service - INFO - AI request successful with model: deepseek/deepseek-r1:free
+2025-08-29 10:23:17,926 - app.services.test_generator_service - INFO - Generating tests for: mytoy\__init__.py
+2025-08-29 10:23:17,926 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:24:17,114 - app.services.ai_service - INFO - AI request successful with model: deepseek/deepseek-r1:free
+2025-08-29 10:24:17,118 - app.services.test_generator_service - INFO - Generated 4 tests for mytoy\__init__.py
+2025-08-29 10:24:17,119 - app.services.test_generator_service - INFO - Processing file: mytoy\tests\test_toys.py
+2025-08-29 10:24:17,119 - app.services.test_generator_service - INFO - Skipping test file: mytoy\tests\test_toys.py
+2025-08-29 10:24:17,119 - app.services.test_generator_service - INFO - Processing file: mytoy\tests\__init__.py
+2025-08-29 10:24:17,121 - app.services.test_generator_service - INFO - Reading source code from: mytoy\tests\__init__.py
+2025-08-29 10:24:17,122 - app.services.test_generator_service - INFO - Analyzing code structure for: mytoy\tests\__init__.py
+2025-08-29 10:24:17,122 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:24:27,159 - app.services.ai_service - INFO - AI request successful with model: deepseek/deepseek-r1:free
+2025-08-29 10:24:27,188 - app.services.test_generator_service - INFO - Generating tests for: mytoy\tests\__init__.py
+2025-08-29 10:24:27,214 - app.services.ai_service - INFO - Attempting AI request with model: deepseek/deepseek-r1:free
+2025-08-29 10:24:58,343 - app.api.routes - ERROR - Analysis task 158b9725-eeb8-4acd-9254-80d881f58f89 timed out after 5 minutes
+2025-08-29 10:24:58,346 - app.api.routes - ERROR - Error in analysis task 158b9725-eeb8-4acd-9254-80d881f58f89: 
+2025-08-29 10:24:58,437 - app.core.database - INFO - MongoDB connection closed
+2025-08-29 10:25:00,942 - app.core.database - INFO - Connected to MongoDB at mongodb://localhost:27017
+2025-08-29 10:25:00,942 - app.core.database - INFO - Using database: ai_testing_agent
+2025-08-29 10:25:00,946 - app.core.database - INFO - MongoDB initialized successfully with indexes
+2025-08-29 10:25:00,952 - app.core.database - INFO - MongoDB connection closed
+2025-08-29 10:25:03,449 - app.core.database - INFO - Connected to MongoDB at mongodb://localhost:27017
+2025-08-29 10:25:03,449 - app.core.database - INFO - Using database: ai_testing_agent
+2025-08-29 10:25:03,454 - app.core.database - INFO - MongoDB initialized successfully with indexes
+2025-08-29 10:26:27,836 - app.core.database - INFO - MongoDB connection closed
+2025-08-29 10:27:05,309 - app.core.database - INFO - Connected to MongoDB at mongodb://localhost:27017
+2025-08-29 10:27:05,311 - app.core.database - INFO - Using database: ai_testing_agent
+2025-08-29 10:27:05,315 - app.core.database - INFO - MongoDB initialized successfully with indexes
+2025-08-29 10:27:20,197 - app.api.routes - INFO - Started analysis task dc22e172-7cec-44b0-9191-502e97089307 for repository https://github.com/fperez/mytoy.git
+2025-08-29 10:27:20,207 - app.services.github_service - INFO - Cloning repository: https://github.com/fperez/mytoy.git
+2025-08-29 10:27:21,705 - app.services.github_service - INFO - Repository cloned successfully to: D:\Unit_Test_Agent\backend\temp\dc22e172-7cec-44b0-9191-502e97089307
+2025-08-29 10:27:21,711 - app.services.github_service - INFO - Repository analysis completed: 5 files, 1 languages
+2025-08-29 10:27:21,716 - app.services.test_generator_service - INFO - Processing file: setup.py
+2025-08-29 10:27:21,717 - app.services.test_generator_service - INFO - Reading source code from: setup.py
+2025-08-29 10:27:21,717 - app.services.test_generator_service - INFO - Analyzing code structure for: setup.py
+2025-08-29 10:27:21,718 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:26,003 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:26,006 - app.services.test_generator_service - INFO - Generating tests for: setup.py
+2025-08-29 10:27:26,007 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:36,167 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:36,171 - app.services.test_generator_service - INFO - Generated 4 tests for setup.py
+2025-08-29 10:27:36,171 - app.services.test_generator_service - INFO - Processing file: mytoy\toys.py
+2025-08-29 10:27:36,173 - app.services.test_generator_service - INFO - Reading source code from: mytoy\toys.py
+2025-08-29 10:27:36,173 - app.services.test_generator_service - INFO - Analyzing code structure for: mytoy\toys.py
+2025-08-29 10:27:36,174 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:42,572 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:42,573 - app.services.test_generator_service - INFO - Generating tests for: mytoy\toys.py
+2025-08-29 10:27:42,574 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:49,911 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:49,916 - app.services.test_generator_service - INFO - Generated 6 tests for mytoy\toys.py
+2025-08-29 10:27:49,918 - app.services.test_generator_service - INFO - Processing file: mytoy\__init__.py
+2025-08-29 10:27:49,919 - app.services.test_generator_service - INFO - Reading source code from: mytoy\__init__.py
+2025-08-29 10:27:49,919 - app.services.test_generator_service - INFO - Analyzing code structure for: mytoy\__init__.py
+2025-08-29 10:27:49,920 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:55,028 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:27:55,030 - app.services.test_generator_service - INFO - Generating tests for: mytoy\__init__.py
+2025-08-29 10:27:55,030 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:28:03,829 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:28:03,840 - app.services.test_generator_service - INFO - Generated 4 tests for mytoy\__init__.py
+2025-08-29 10:28:03,841 - app.services.test_generator_service - INFO - Processing file: mytoy\tests\test_toys.py
+2025-08-29 10:28:03,842 - app.services.test_generator_service - INFO - Skipping test file: mytoy\tests\test_toys.py
+2025-08-29 10:28:03,843 - app.services.test_generator_service - INFO - Processing file: mytoy\tests\__init__.py
+2025-08-29 10:28:03,843 - app.services.test_generator_service - INFO - Reading source code from: mytoy\tests\__init__.py
+2025-08-29 10:28:03,844 - app.services.test_generator_service - INFO - Analyzing code structure for: mytoy\tests\__init__.py
+2025-08-29 10:28:03,844 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:28:08,585 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:28:08,587 - app.services.test_generator_service - INFO - Generating tests for: mytoy\tests\__init__.py
+2025-08-29 10:28:08,588 - app.services.ai_service - INFO - Attempting AI request with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:28:27,086 - app.services.ai_service - INFO - AI request successful with model: qwen/qwen-2.5-coder-32b-instruct:free
+2025-08-29 10:28:27,092 - app.services.test_generator_service - INFO - Generated 9 tests for mytoy\tests\__init__.py
+2025-08-29 10:28:27,094 - app.services.test_runner_service - INFO - Starting Python test execution for D:\Unit_Test_Agent\backend\temp\dc22e172-7cec-44b0-9191-502e97089307
+2025-08-29 10:28:27,094 - app.services.test_runner_service - INFO - Current working directory: D:\Unit_Test_Agent\backend
+2025-08-29 10:28:27,101 - app.services.test_runner_service - INFO - Repository path exists: True
+2025-08-29 10:28:27,113 - app.services.test_runner_service - INFO - Found 4 test files: ['test_toys.py', 'test_setup.py', 'test_toys.py', 'test___init__.py']
+2025-08-29 10:28:27,114 - app.services.test_runner_service - INFO - Found virtual environment: D:\Unit_Test_Agent\backend\myenv\Scripts\python.exe
+2025-08-29 10:28:27,115 - app.services.test_runner_service - INFO - Using Python executable: D:\Unit_Test_Agent\backend\myenv\Scripts\python.exe
+2025-08-29 10:28:27,116 - app.services.test_runner_service - INFO - Running command: D:\Unit_Test_Agent\backend\myenv\Scripts\python.exe -m pytest --version
+2025-08-29 10:28:27,117 - app.services.test_runner_service - WARNING - Async subprocess not supported in current event loop. Falling back to synchronous subprocess.run
+2025-08-29 10:28:28,148 - app.services.test_runner_service - INFO - Found pytest in virtual environment: pytest 7.4.3
+2025-08-29 10:28:28,149 - app.services.test_runner_service - INFO - Running pytest with coverage...
+2025-08-29 10:28:28,149 - app.services.test_runner_service - INFO - Running command: D:\Unit_Test_Agent\backend\myenv\Scripts\python.exe -m pytest --cov=. --cov-report=json --cov-report=html -v
+2025-08-29 10:28:28,150 - app.services.test_runner_service - INFO - Working directory: D:\Unit_Test_Agent\backend\temp\dc22e172-7cec-44b0-9191-502e97089307
+2025-08-29 10:28:28,150 - app.services.test_runner_service - WARNING - Async subprocess not supported in current event loop. Falling back to synchronous subprocess.run
+2025-08-29 10:28:30,190 - app.services.test_runner_service - INFO - pytest return code: 1
+2025-08-29 10:28:30,191 - app.services.test_runner_service - INFO - pytest stdout: ============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-7.4.3, pluggy-1.6.0 -- D:\Unit_Test_Agent\backend\myenv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Unit_Test_Agent\backend\temp\dc22e172-7cec-44b0-9191-502e97089307
+plugins: anyio-3.7.1, asyncio-0.21.1, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collecting ... collected 22 items
+
+mytoy/tests/test_toys.py::test_toy_default PASSED                        [  4%]
+m...
+2025-08-29 10:28:30,191 - app.services.test_runner_service - INFO - pytest stderr: ...
+2025-08-29 10:28:30,192 - app.services.test_runner_service - INFO - Found 11 passed, 29 failed tests from PASSED/FAILED keywords
+2025-08-29 10:28:30,194 - app.services.test_runner_service - INFO - Found 10 passed, 12 failed tests from separate counts
+2025-08-29 10:28:30,194 - app.services.test_runner_service - INFO - Final test results: 10 passed, 12 failed, 22 total
+2025-08-29 10:28:30,196 - app.services.test_runner_service - INFO - Parsed coverage from coverage.json: 92.74%
+2025-08-29 10:28:30,201 - app.api.routes - INFO - Analysis task dc22e172-7cec-44b0-9191-502e97089307 completed successfully
+2025-08-29 10:28:30,314 - app.core.database - INFO - MongoDB connection closed
+2025-08-29 10:28:32,293 - app.core.database - INFO - Connected to MongoDB at mongodb://localhost:27017
+2025-08-29 10:28:32,293 - app.core.database - INFO - Using database: ai_testing_agent
+2025-08-29 10:28:32,297 - app.core.database - INFO - MongoDB initialized successfully with indexes
+2025-08-29 10:28:32,303 - app.core.database - INFO - MongoDB connection closed
+2025-08-29 10:28:34,828 - app.core.database - INFO - Connected to MongoDB at mongodb://localhost:27017
+2025-08-29 10:28:34,829 - app.core.database - INFO - Using database: ai_testing_agent
+2025-08-29 10:28:34,833 - app.core.database - INFO - MongoDB initialized successfully with indexes
+2025-08-29 10:28:34,880 - app.api.routes - WARNING - Results not found in active_tasks for dc22e172-7cec-44b0-9191-502e97089307, attempting to reconstruct from MongoDB
+2025-08-29 10:28:44,318 - app.api.routes - WARNING - Results not found in active_tasks for dc22e172-7cec-44b0-9191-502e97089307, attempting to reconstruct from MongoDB
+2025-08-29 10:29:13,029 - app.api.routes - WARNING - Results not found in active_tasks for dc22e172-7cec-44b0-9191-502e97089307, attempting to reconstruct from MongoDB
+2025-08-29 10:30:09,843 - app.api.routes - WARNING - Results not found in active_tasks for dc22e172-7cec-44b0-9191-502e97089307, attempting to reconstruct from MongoDB
+2025-08-29 10:30:24,266 - app.api.routes - WARNING - Results not found in active_tasks for dc22e172-7cec-44b0-9191-502e97089307, attempting to reconstruct from MongoDB
+2025-08-29 10:45:26,350 - app.core.database - INFO - MongoDB connection closed
+2025-08-29 10:49:03,295 - app.core.database - INFO - Connected to MongoDB at mongodb://localhost:27017
+2025-08-29 10:49:03,296 - app.core.database - INFO - Using database: ai_testing_agent
+2025-08-29 10:49:03,301 - app.core.database - INFO - MongoDB initialized successfully with indexes
+2025-08-29 10:49:40,583 - app.api.routes - WARNING - Results not found in active_tasks for dc22e172-7cec-44b0-9191-502e97089307, attempting to reconstruct from MongoDB
+2025-08-29 13:03:17,774 - app.api.routes - WARNING - Results not found in active_tasks for dc22e172-7cec-44b0-9191-502e97089307, attempting to reconstruct from MongoDB
